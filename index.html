@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danish's GitHub Stats API</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 100%);
+            color: #e6edf3;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            text-align: center;
+            background: rgba(22, 27, 34, 0.8);
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 40px;
+            backdrop-filter: blur(10px);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #58a6ff, #79c0ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            color: #8b949e;
+            margin-bottom: 30px;
+        }
+        
+        .stats-container {
+            margin: 30px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        .stats-card {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease;
+        }
+        
+        .stats-card:hover {
+            transform: scale(1.02);
+        }
+        
+        .api-links {
+            margin-top: 30px;
+            text-align: left;
+            background: #0d1117;
+            border-radius: 8px;
+            padding: 20px;
+            border: 1px solid #30363d;
+        }
+        
+        .api-links h3 {
+            color: #58a6ff;
+            margin-bottom: 15px;
+        }
+        
+        .api-link {
+            display: block;
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 12px;
+            margin: 8px 0;
+            color: #79c0ff;
+            text-decoration: none;
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            font-size: 0.9rem;
+            word-break: break-all;
+            transition: background-color 0.2s ease;
+        }
+        
+        .api-link:hover {
+            background: #21262d;
+            color: #58a6ff;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            color: #8b949e;
+            font-size: 0.9rem;
+        }
+        
+        .github-link {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        
+        .github-link:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .api-link {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Danish's GitHub Stats API</h1>
+        <p class="subtitle">Live GitHub statistics powered by Vercel</p>
+        
+        <div class="stats-container">
+            <div class="stats-card">
+                <img src="/api?username=dvansari65&show_icons=true&theme=dark&include_all_commits=true&count_private=true" 
+                     alt="Danish's GitHub Stats" 
+                     onerror="this.style.display='none'; document.getElementById('error-msg').style.display='block';">
+            </div>
+            
+            <div class="stats-card">
+                <img src="/api/top-langs/?username=dvansari65&layout=compact&theme=dark" 
+                     alt="Most Used Languages"
+                     onerror="this.style.display='none';">
+            </div>
+            
+            <div id="error-msg" style="display:none; color:#f85149; margin-top:20px;">
+                ⚠️ Stats not loading? Make sure you've added your GitHub Personal Access Token (PAT_1) in Vercel environment variables.
+            </div>
+        </div>
+        
+        <div class="api-links">
+            <h3>📡 API Endpoints</h3>
+            <a href="/api?username=dvansari65&show_icons=true&theme=dark&include_all_commits=true&count_private=true" 
+               class="api-link" target="_blank">
+                /api?username=dvansari65&show_icons=true&theme=dark&include_all_commits=true&count_private=true
+            </a>
+            
+            <a href="/api/top-langs/?username=dvansari65&layout=compact&theme=dark" 
+               class="api-link" target="_blank">
+                /api/top-langs/?username=dvansari65&layout=compact&theme=dark
+            </a>
+            
+            <a href="/api?username=dvansari65&show_icons=true&theme=radical" 
+               class="api-link" target="_blank">
+                /api?username=dvansari65&show_icons=true&theme=radical
+            </a>
+        </div>
+        
+        <div class="footer">
+            <p>Made with ❤️ by <a href="https://github.com/dvansari65" class="github-link">Danish</a></p>
+            <p>Powered by <a href="https://github.com/anuraghazra/github-readme-stats" class="github-link">GitHub Readme Stats</a></p>
+        </div>
+    </div>
+</body>
+</html>
