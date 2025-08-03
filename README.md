@@ -1,4 +1,5 @@
 # Hi there! 👋 I'm Danish
+![GitHub Metrics](https://github.com/<dvansari65>/<dvansari65>/blob/master/metrics.svg)
 
 ## GitHub Stats
 ![Your GitHub Stats](https://dvansari65-stats.vercel.app/api?username=dvansari65&show_icons=true&theme=radical)
