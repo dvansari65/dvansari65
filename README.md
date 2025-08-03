@@ -21,7 +21,7 @@
 - 💻 Passionate developer
 - 🌱 Always learning new technologies
 - 💼 Open to collaboration opportunities
-- 📫 How to reach me: [Your Email]
+- 📫 How to reach me: [dvansari360@gmail.com]
 
 ### 🛠️ Tech Stack
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
