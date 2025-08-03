@@ -1,19 +1,16 @@
 # Hi there! 👋 I'm Danish
 
-## 📊 GitHub Stats
-![Danish's GitHub Stats](https://dvansari65-stats.vercel.app/api?username=dvansari65&show_icons=true&theme=dark&include_all_commits=true&count_private=true)
+## GitHub Stats
+![Your GitHub Stats](https://dvansari65-stats.vercel.app/api?username=dvansari65&show_icons=true&theme=radical)
 
-![Top Languages](https://dvansari65-stats.vercel.app/api/top-langs/?username=dvansari65&layout=compact&theme=dark)
+## Most Used Languages
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dvansari65&layout=compact&theme=radical)
 
-## 📈 Contribution Graph
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=dvansari65&theme=github-compact)
-
-## 🔥 GitHub Streak
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=dvansari65&theme=dark)
-
-## 💫 Profile Views
-![Profile Views](https://komarev.com/ghpvc/?username=dvansari65&color=blue&style=flat-square)
+## GitHub Streak
+![GitHub Streak](https://streak-stats.demolab.com/?user=dvansari65&theme=radical)
 ---
+## Profile Views
+![Profile Views](h
 
 ### 🚀 About Me
 - 💻 Passionate developer
