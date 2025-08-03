@@ -1,8 +1,7 @@
 # Hi there! 👋 I'm Danish
 
 ## 📊 GitHub Stats
-
-![Danish's GitHub Stats]([https://dvansari65-stats.vercel.app/api?username=dvansari65&show_icons=true&theme=dark&include_all_commits=true&count_private=true]))
+![Danish's GitHub Stats](https://dvansari65-stats.vercel.app/api?username=dvansari65&show_icons=true&theme=dark&include_all_commits=true&count_private=true)
 
 ![Top Languages](https://dvansari65-stats.vercel.app/api/top-langs/?username=dvansari65&layout=compact&theme=dark)
 
@@ -14,7 +13,6 @@
 
 ## 💫 Profile Views
 ![Profile Views](https://komarev.com/ghpvc/?username=dvansari65&color=blue&style=flat-square)
-
 ---
 
 ### 🚀 About Me
