@@ -10,7 +10,7 @@
 ![GitHub Streak](https://streak-stats.demolab.com/?user=dvansari65&theme=radical)
 ---
 ## Profile Views
-![Profile Views](h
+![Profile Views](https://komarev.com/ghpvc/?username=dvansari65&color=blue)
 
 ### 🚀 About Me
 - 💻 Passionate developer
