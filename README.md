@@ -1,4 +1,4 @@
-# Hi there! 👋 I'm Sargam
+# Hi there! 👋 I'm Danish
 
 ## 📊 GitHub Stats
 
