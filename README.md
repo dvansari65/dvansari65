@@ -2,9 +2,9 @@
 
 ## 📊 GitHub Stats
 
-![Danish's GitHub Stats]([https://dvansari65-stats.vercel.app/api?username=dvansari65&show_icons=true&theme=dark&include_all_commits=true&count_private=true])(https://github-readme-stats.vercel.app/api?username=dvansari65&show_icons=true&theme=dark&include_all_commits=true&count_private=true))
+![Danish's GitHub Stats]([https://dvansari65-stats.vercel.app/api?username=dvansari65&show_icons=true&theme=dark&include_all_commits=true&count_private=true]))
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dvansari65&layout=compact&theme=dark)
+![Top Languages](https://dvansari65-stats.vercel.app/api/top-langs/?username=dvansari65&layout=compact&theme=dark)
 
 ## 📈 Contribution Graph
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=dvansari65&theme=github-compact)
