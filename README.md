@@ -1,5 +1,5 @@
 # Hey! I'm Danish..
-## FULL STACK DEVELOPER
+## SOLANA FULL STACK DEVELOPER
 
 ---
 ## 📊 GitHub Stats
