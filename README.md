@@ -1,5 +1,5 @@
 # Hey! I'm Danish..
-## SOLANA FULL STACK DEVELOPER
+## Blockchain Developer
 
 ---
 ## 📊 GitHub Stats
